@@ -1,8 +1,10 @@
-/*  SBM-20 based Geiger Counter
+/*  GC-20 by Prabhat
+    SBM-20 based Geiger Counter and Radiation Monitoring Station
     Author: Prabhat    Email: pra22@pitt.edu
     Sketch for ESP8266 that counts clicks from the Geiger tube, calculates the counts per minute, and displays information 
     on a TFT touchscreen.
-    Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+    Includes WiFi functionality with no programming required from the end user.
+    Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) creativecommons.org
 */
 #include <Arduino.h>
 #include <ESP8266WiFi.h>
